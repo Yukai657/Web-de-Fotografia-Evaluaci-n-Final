@@ -32,3 +32,66 @@
     list-style: none;
   }
 }
+
+@media (min-width:901px) {
+  .contenido{
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .cabecera{
+    display: flex;
+    flex-flow: row;
+    position: relative;
+  }
+
+  header h1{
+    text-align: left;
+    width: 60%;
+  }
+
+  nav{
+    width: 40%;
+    text-align: right;
+    position: absolute;
+    top: 30%;
+    right: 0;
+  }
+
+  nav a{
+    padding: 10px;
+}
+
+
+  img{
+    display: block;
+    margin: auto;
+  }
+
+  .secundaria{
+    display: flex;
+    flex-flow: row;
+  }
+
+  .izq{
+    width: 450px;
+  }
+
+  .der{
+    width: 450px;
+  }
+
+  figcaption{
+    text-align: center;
+  }
+
+  .pie{
+    margin-left: 10%;
+  }
+
+  .pie ul{
+    list-style: none;
+  }
+}
