@@ -2,10 +2,10 @@ img[id$="1"]{
   filter: blur(10px);
 }
 
-img[id$="3"], img[id$="2"], img[id$="6"]{
+img[id$="2"], img[id$="4"], img[id$="6"]{
   filter: grayscale(100%);
 }
 
-img[id$="5"]{
+img[id$="3"]{
   filter: sepia(90%);
 }

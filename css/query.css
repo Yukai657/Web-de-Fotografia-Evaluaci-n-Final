@@ -1,0 +1,34 @@
+@media (max-width:900px){
+  .contenido{
+    display: flex;
+    flex-flow: column wrap;
+  }
+  header h1{
+    text-align: center;
+    font-size: 2.5em;
+  }
+
+  nav{
+    text-align: center;
+  }
+  nav a{
+    padding: 10px;
+  }
+
+  img{
+    display: block;
+    margin: auto;
+  }
+
+  figcaption{
+    text-align: center;
+  }
+
+  .pie{
+    margin-left: 10%;
+  }
+
+  .pie ul{
+    list-style: none;
+  }
+}
