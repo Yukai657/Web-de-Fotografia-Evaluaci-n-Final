@@ -5,4 +5,51 @@
 
 body{
   font-family: DanScript;
+  color: white;
+  background-color: #02010a;
+}
+
+.cabecera{
+  background-color: #5b7989;
+  border-radius: 10px 10px 0 0;
+}
+
+header h1{
+  text-shadow: 2px 2px 0 #02010a;
+  text-align: left;
+}
+
+nav table tr td a{
+  color: white;
+}
+
+nav table tr td a[href="#"]{
+  text-decoration: none;
+}
+
+.central{
+  background-color: #82c3a6;
+}
+
+#central{
+  display: block;
+  margin: auto;
+}
+
+figcaption{
+  color: black;
+}
+
+.secundaria, .galeria{
+  background-color: #d5c75f;
+}
+
+img{
+  box-shadow: 2px 2px 0 #02010a;
+}
+
+footer{
+  background-color: #C6d5c5;
+  border-radius: 0 0 10px 10px;
+  color: black;
 }
